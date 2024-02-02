@@ -133,7 +133,7 @@ const rockClick = rockImgContainer.addEventListener('click', function() {
                 resultText.firstElementChild.textContent = 'COMPUTER WINS!';
                 resultText.lastElementChild.textContent = `${userChoice} LOSES TO a ${computerRealChoice}`;
     
-                computerScore.textContent = `Computer: ${computerWins}`;
+                playerScore.textContent = `Player: ${userWins}`;
                 console.log("u: ", userWins, "  computer: ", computerWins);
     
 
@@ -171,6 +171,7 @@ const rockClick = rockImgContainer.addEventListener('click', function() {
         }
         
     }
+
     else {
         ++userWins;
 
@@ -193,7 +194,7 @@ const rockClick = rockImgContainer.addEventListener('click', function() {
                     resultText.firstElementChild.textContent = 'COMPUTER WINS!';
                     resultText.lastElementChild.textContent = `${userChoice} LOSES TO a ${computerRealChoice}`;
         
-                    computerScore.textContent = `Computer: ${computerWins}`;
+                    playerScore.textContent = `Player: ${userWins}`;
                     console.log("u: ", userWins, "  computer: ", computerWins);
         
     
@@ -270,7 +271,7 @@ const paperClick = paperImgContainer.addEventListener('click', function() {
                 resultText.firstElementChild.textContent = 'COMPUTER WINS!';
                 resultText.lastElementChild.textContent = `${userChoice} LOSES TO a ${computerRealChoice}`;
     
-                computerScore.textContent = `Computer: ${computerWins}`;
+                playerScore.textContent = `Player: ${userWins}`;
                 console.log("u: ", userWins, "  computer: ", computerWins);
     
 
@@ -360,7 +361,7 @@ const paperClick = paperImgContainer.addEventListener('click', function() {
                 resultText.firstElementChild.textContent = 'COMPUTER WINS!';
                 resultText.lastElementChild.textContent = `${userChoice} LOSES TO a ${computerRealChoice}`;
     
-                computerScore.textContent = `Computer: ${computerWins}`;
+                playerScore.textContent = `Player: ${userWins}`;
                 console.log("u: ", userWins, "  computer: ", computerWins);
     
 
@@ -435,7 +436,7 @@ const scissorClick = scissorImgContainer.addEventListener('click', function() {
                 resultText.firstElementChild.textContent = 'COMPUTER WINS!';
                 resultText.lastElementChild.textContent = `${userChoice} LOSES TO a ${computerRealChoice}`;
     
-                computerScore.textContent = `Computer: ${computerWins}`;
+                playerScore.textContent = `Player: ${userWins}`;
                 console.log("u: ", userWins, "  computer: ", computerWins);
     
 
@@ -493,7 +494,7 @@ const scissorClick = scissorImgContainer.addEventListener('click', function() {
                 resultText.firstElementChild.textContent = 'COMPUTER WINS!';
                 resultText.lastElementChild.textContent = `${userChoice} LOSES TO a ${computerRealChoice}`;
     
-                computerScore.textContent = `Computer: ${computerWins}`;
+                playerScore.textContent = `Player: ${userWins}`;
                 console.log("u: ", userWins, "  computer: ", computerWins);
     
 
